@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Segurança Digital - Terceira Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- BARRA DE ACESSIBILIDADE (BOTÕES) -->
+    <div class="barra-acessibilidade">
+        <div class="container barra-container">
+            <span class="acessibilidade-label">Acessibilidade:</span>
+            <div class="grupo-botoes">
+                <button id="btn-aumentar" class="btn-acessibilidade" title="Aumentar Fonte" aria-label="Aumentar tamanho do texto">A+</button>
+                <button id="btn-diminuir" class="btn-acessibilidade" title="Diminuir Fonte" aria-label="Diminuir tamanho do texto">A-</button>
+                <button id="btn-reset" class="btn-acessibilidade" title="Tamanho Normal" aria-label="Restaurar tamanho normal do texto">A</button>
+                <button id="btn-contraste" class="btn-acessibilidade btn-destaque" title="Alto Contraste" aria-label="Alternar Alto Contraste">🌓 Alto Contraste</button>
+                <button id="btn-ler" class="btn-acessibilidade btn-voz" title="Ouvir Texto" aria-label="Ler página em voz alta">🔊 Ler Página</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <div class="container">
+            <h1>🛡️ Guia de Segurança Digital</h1>
+            <p>Dicas simples e seguras para navegar na internet sem medo</p>
+        </div>
+    </header>
+
+    <!-- MENU DE NAVEGAÇÃO -->
+    <nav class="menu">
+        <div class="container menu-container">
+            <a href="#whatsapp" class="botao-menu">📱 Golpe no WhatsApp</a>
+            <a href="#senhas" class="botao-menu">🔑 Criar Senhas</a>
+            <a href="#banco" class="botao-menu">🏦 Cuidados com Banco</a>
+            <a href="#links" class="botao-menu">🔗 Links Suspeitos</a>
+            <a href="#ajuda" class="botao-menu botao-ajuda-top">🆘 Precisa de Ajuda?</a>
+        </div>
+    </nav>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container conteudo">
+
+ <!-- DICA 5: SEÇÃO DE AJUDA -->
+ <section id="ajuda" class="cartao cartao-verde">
+    <div class="cartao-titulo-verde">
+        <h2>🆘 O que fazer em caso de dúvida ou suspeita?</h2>
+    </div>
+    <div class="cartao-corpo">
+        <ol>
+            <li><strong>Mantenha a calma:</strong> Golpistas usam a pressa para enganar.</li>
+            <li><strong>Desligue o telefone</strong> ou feche o aplicativo na hora.</li>
+            <li><strong>Chame uma pessoa de confiança:</strong> Converse com um filho, neto ou vizinho de confiança.</li>
+            <li><strong>Avise o banco:</strong> Se informou dados de cartão, ligue para o seu banco pelo número oficial.</li>
+        </ol>
+    </div>
+</section>
+        <!-- DICA 1: WHATSAPP -->
+        <section id="whatsapp" class="cartao cartao-vermelho">
+            <div class="cartao-titulo">
+                <h2>📱 Perigo: Golpe do Zap / WhatsApp</h2>
+            </div>
+            <div class="cartao-corpo">
+                <p><strong>FIQUE ATENTO:</strong> Se alguém mandar mensagem dizendo que mudou de número e pedir dinheiro emprestado (mesmo usando foto de filho ou neto):</p>
+                <ul>
+                    <li>🛑 <strong>NÃO faça Pix</strong> ou transferência na hora.</li>
+                    <li>📞 <strong>Ligue para o número antigo</strong> da pessoa para confirmar se é ela mesma.</li>
+                    <li>🔒 Peça ajuda para ativar a <em>"Confirmação em duas etapas"</em> no seu aplicativo.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- DICA 2: SENHAS -->
+        <section id="senhas" class="cartao cartao-azul">
+            <div class="cartao-titulo">
+                <h2>🔑 Como Criar Senhas Seguras</h2>
+            </div>
+            <div class="cartao-corpo">
+                <p>Sua senha é a chave da sua casa digital. Proteja ela bem!</p>
+                <ul>
+                    <li>❌ Evite datas de nascimento, nomes de familiares ou "123456".</li>
+                    <li>✅ Misture letras maiúsculas, minúsculas e números para ficar mais forte.</li>
+                    <li>📝 Anote suas senhas em um caderno físico guardado em casa, nunca no próprio celular.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- DICA 3: BANCOS -->
+        <section id="banco" class="cartao cartao-azul">
+            <div class="cartao-titulo">
+                <h2>🏦 Segurança no Banco e no Pix</h2>
+            </div>
+            <div class="cartao-corpo">
+                <p>Regras universais que nenhum banco quebra:</p>
+                <ul>
+                    <li>📞 <strong>O banco NUNCA liga</strong> pedindo para você falar ou digitar suas senhas.</li>
+                    <li>🛵 <strong>O banco NUNCA manda motoboy</strong> buscar seu cartão na sua casa.</li>
+                    <li>⚠️ Se achar a ligação estranha, desligue e ligue no número que está atrás do seu cartão.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- DICA 4: LINKS -->
+        <section id="links" class="cartao cartao-azul">
+            <div class="cartao-titulo">
+                <h2>🔗 Mensagens e Sorteios Falsos</h2>
+            </div>
+            <div class="cartao-corpo">
+                <p>Tome cuidado ao clicar em mensagens no SMS ou e-mail:</p>
+                <ul>
+                    <li>🎁 Desconfie de prêmios, sorteios ou presentes que você não se inscreveu.</li>
+                    <li>📦 Não clique em links dizendo ser de compras ou entregas dos Correios.</li>
+                    <li>🙋 Na dúvida, mostre a mensagem para alguém de confiança antes de apertar qualquer botão.</li>
+                </ul>
+            </div>
+        </section>
+
+    
+
+    </main>
+
+    <!-- BOTÃO FLUTUANTE DE AJUDA -->
+    <a href="#ajuda" class="botao-flutuante" aria-label="Ir para área de ajuda de emergência">🆘 Ajuda Rápida</a>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <p>💡 Dica Importante: Na dúvida, pare, respire e consulte alguém da sua família!</p>
+    </footer>
+
+    <!-- CONEXÃO COM O JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
